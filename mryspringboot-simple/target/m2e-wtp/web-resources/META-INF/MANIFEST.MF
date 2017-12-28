@@ -3,7 +3,7 @@ Implementation-Title: mryspringboot-simple
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: Administrator
 Implementation-Vendor-Id: com.mryspringboot
-Build-Jdk: 1.8.0_151
+Build-Jdk: 1.8.0_144
 Implementation-URL: http://projects.spring.io/spring-boot/mryspringboo
  t/mryspringboot-simple/
 Created-By: Maven Integration for Eclipse
