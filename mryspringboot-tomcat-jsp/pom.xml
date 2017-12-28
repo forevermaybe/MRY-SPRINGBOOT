@@ -6,21 +6,27 @@
     <artifactId>mryspringboot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>mryspringboot-tomcat</artifactId>
+  <artifactId>mryspringboot-tomcat-jsp</artifactId>
+  <packaging>war</packaging>
 
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-tomcat</artifactId>
+      <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-webmvc</artifactId>
+      <groupId>org.apache.tomcat.embed</groupId>
+      <artifactId>tomcat-embed-jasper</artifactId>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
-  
 </project>

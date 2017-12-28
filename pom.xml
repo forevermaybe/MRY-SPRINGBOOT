@@ -16,6 +16,8 @@
     <module>mryspringboot-simple</module>
     
     <module>mryspringboot-tomcat</module>
+    
+    <module>mryspringboot-tomcat-jsp</module>
   </modules>
   <dependencies>
     <dependency>
