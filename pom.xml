@@ -19,6 +19,9 @@
     
     <module>mryspringboot-tomcat-jsp</module>
     <module>mryspringboot-war</module>
+    
+    
+    <module>mryspringboot-jpa</module>
   </modules>
   <dependencies>
     <dependency>
